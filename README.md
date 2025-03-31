@@ -9,18 +9,18 @@ Performs column validation to avoid errors.
 Handles invalid input with helpful messages.
 
 Usage Examples
-1️⃣ Filter rows where column 2 contains "error":
+1️) Filter rows where column 2 contains "error":
 
 ./csv_analyzer.sh -f data.csv -d ',' -o filter -c 2 -r "error"
 
-2️⃣ Sort file by column 3:
+2️) Sort file by column 3:
 
 ./csv_analyzer.sh -f data.csv -d ',' -o sort -c 3
 
-3️⃣ Get statistics for column 4:
+3️) Get statistics for column 4:
 
 ./csv_analyzer.sh -f data.csv -d ',' -o stats -c 4
 
-4️⃣ Help menu:
+4️) Help menu:
 
 ./csv_analyzer.sh -h
